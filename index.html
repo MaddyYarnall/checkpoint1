@@ -12,14 +12,14 @@
 
 <body>
   <!-- This is my sticky header -->
-  <header>
-    <nav class="navbar navbar-light bg-success">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="" class="img-fluid sticky"> This is my sticky header</a>
-        </div>
-      </nav> 
-
+  <header class="container-fluid sticky-top">
+    <div class="row">
+      <nav class="navbar navbar-light bg-success">
+          <a class="navbar-brand" href="#">
+            <img src="" class="img-fluid"> This is my sticky header</a>
+        </nav> 
+  
+      </div>
     </div>
   </header>
 
@@ -28,9 +28,14 @@
     <div class="container-fluid">
       <!-- This is my background image row with the text over img and the form -->
       <div class="row hero-img align-items-center">
-    <div class="col-md-12">
-       <div class="d-inline-block align-top justify-content-center" alt="test"> 
+
+        <!-- NOTE - How can I put this card on the other side? -->
+    <div class="col-md-4 ms-md-5">
+       <div class="text-light shadow rounded hero-card p-3 d-none d-md-block"> 
+         <h4> Header for over image</h4>
       <p > This is the text over the image</p>
+      <div class="d-flex justify-content-end">
+      </div>
     </div>
   </div>
   </div>
@@ -39,7 +44,7 @@
 <!-- This is the second row with the spill card: still need to make spill card -->
   <div class="container-fluid">
     <div class="row align-text-end justify-content-center">
-        <div class="col-sm-12 d-flex justify-content-center spill-img position-absolute ">
+        <div class="col-sm-12 d-flex justify-content-center card position-absolute ">
             <div>
                 <h5 class="n-quote">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                 </h5>
@@ -100,6 +105,11 @@
 </div>
 
   </main>
+
+  <footer class="container-fluid">
+    <p>text inside footer</p>
+
+  </footer>
 
 </body>
 </html>

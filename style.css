@@ -5,14 +5,8 @@
     background-position: center;
 }
 
-.spill-img{
-  background-image: url(https://wallpapersflix.com/cool/wp-content/uploads/2020/07/Cool-PC-Wallpaper-HD-1024x576.jpg);
-  backdrop-filter: blur(4px); 
-   opacity: 70%; 
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 150px;
-  width: 800px;
-  bottom: 10px;
-  z-index: 2;
+.hero-card{
+  background-color: black;
+  box-sizing: border-box;
+  border-radius: 5;
 }
