@@ -1,5 +1,5 @@
   .hero-img{
-    background-image: url(https://i.pinimg.com/originals/6a/8b/50/6a8b50ac0aa0e64f224bcee2f0afbd66.jpg);
+    background-image: url(https://images3.alphacoders.com/279/279465.jpg);
     height: 75vh;
     background-size: cover;
     background-position: center;
@@ -8,10 +8,11 @@
 .hero-card{
   box-sizing: border-box;
   border-left: 10px solid black;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .spill-card{
-  height: 35vh;
+  height: 25vh;
   width: 45vh;
   bottom: -225px;
   right: 144px;
@@ -19,4 +20,17 @@
 
 .spill-row{
   height: 40vh;
+}
+
+.thebottomcards{
+  background-color: rgb(31, 61, 36);
+}
+
+
+.stickynavbar{
+  background-color: rgb(0, 129, 0);
+}
+
+.secondrow{
+  font-family: 'Rajdhani', sans-serif;
 }
