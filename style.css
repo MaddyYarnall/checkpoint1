@@ -6,7 +6,6 @@
 }
 
 .hero-card{
-  background-color: black;
   box-sizing: border-box;
-  border-radius: 5;
+  border-left: 10px solid black;
 }
