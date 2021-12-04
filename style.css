@@ -57,3 +57,11 @@
 .gradientstyle{
   background-image: linear-gradient(lightgreen, green, darkgreen);
 }
+
+.coolheader{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.stickyheadtop{
+  font-family: 'Rajdhani', sans-serif;
+}
