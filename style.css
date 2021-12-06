@@ -12,10 +12,12 @@
 }
 
 .spill-card{
-  height: 25vh;
-  width: 45vh;
+  height: 20vh;
+  width: 40vh;
   bottom: -225px;
   right: 144px;
+  display: flex;
+  flex-wrap: wrap;
   background-image: linear-gradient(green, darkgreen);
   -moz-box-shadow:    inset 0 0 10px #000000;
    -webkit-box-shadow: inset 0 0 10px #000000;
@@ -70,4 +72,5 @@
   -moz-box-shadow:    inset 0 0 10px #000000;
    -webkit-box-shadow: inset 0 0 10px #000000;
    box-shadow:         inset 0 0 10px #000000;
+   font-family: 'Rajdhani', sans-serif;
 }
